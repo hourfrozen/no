@@ -1,6 +1,6 @@
 
 while task.wait() do
-d = game.Workspace:GetDescendants()
+d = game.Workspace:GetChildren()
 
 for i,v in pairs(d) do
     if v:IsA("BasePart") then
